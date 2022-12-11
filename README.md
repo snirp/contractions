@@ -46,6 +46,7 @@ decontract('Hello cheeseburger!', {
 ```
 
 # Arguments and options
+
 The function takes a string to be decontracted an (optional) options object, with the following properties:
 
 |property|description|default|type|
@@ -53,3 +54,8 @@ The function takes a string to be decontracted an (optional) options object, wit
 |`convertContractions`|Use the built-in map to convert contractions|`true`|boolean|
 |`convertSlang`|Use the built-in map to convert slang words|`true`|boolean|
 |`customMap`|Provide a custom map to be appended to the selected built-in maps|`{}`|Record<string,string>|
+
+
+# License
+
+[The MIT License](http://opensource.org/licenses/MIT)
