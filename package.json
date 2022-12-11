@@ -1,5 +1,5 @@
 {
-  "name": "contractions",
+  "name": "@snirp/contractions",
   "description": "Typescript multiple-string replacement library, for natural language processing (NLP) and general use",
   "version": "0.1.0",
   "main": "./lib/index.js",
