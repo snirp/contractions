@@ -2,7 +2,7 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "module": "commonjs",
-    "outDir": "lib",
+    "outDir": "build",
     "declaration": true,
     "declarationMap": false,
     "sourceMap": false

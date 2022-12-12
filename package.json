@@ -2,21 +2,20 @@
   "name": "@snirp/contractions",
   "description": "Typescript multiple-string replacement library, for natural language processing (NLP) and general use",
   "version": "0.1.0",
-  "main": "./lib/index.js",
-  "types": "./index.d.ts",
-  "module": "./lib/index.mjs",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "module": "./build/index.mjs",
   "dependencies": {},
   "exports": {
     ".": {
-      "require": "./lib/index.js",
-      "import": "./lib/index.mjs",
-      "types": "./index.d.ts"
+      "require": "./build/index.js",
+      "import": "./build/index.mjs",
+      "types": "./build/index.d.ts"
     },
     "./package.json": "./package.json"
   },
   "files": [
-    "/lib",
-    "/index.d.ts"
+    "/build"
   ],
   "repository": {
     "type": "git",
@@ -35,7 +34,7 @@
     "slang"
   ],
   "scripts": {
-    "clean": "rm -rf lib/*",
+    "clean": "rm -rf build/*",
     "build": "yarn clean && yarn build:cjs && yarn build:esm",
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:esm": "rollup --bundleConfigAsCjs --config rollup.config.js",

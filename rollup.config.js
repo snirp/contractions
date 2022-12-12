@@ -5,13 +5,13 @@ export default [
     input: "src/index.ts",
     output: [
       {
-        file: "lib/index.mjs",
+        file: "build/index.mjs",
         format: "es",
         sourcemap: false,
       },
       {
-        file: "lib/index.umd.js",
-        name: "Zod",
+        file: "build/index.umd.js",
+        name: "Contractions",
         format: "umd",
         sourcemap: false,
       },
